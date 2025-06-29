@@ -21,99 +21,108 @@ const OPENWEATHER_API_KEY = "ea0e9939a9759606b92e18046de380a9";
 
 const weatherPlaylists = {
   Clear: [
-    { id: "0VjIjW4GlUZAMYd2vXMi3b", title: "Blinding Lights – The Weeknd" }, // :contentReference[oaicite:1]{index=1}
-    { id: "1rqqCSm0Qe4I9rUvWncaom", title: "High Hopes – Panic! At The Disco" },
-    { id: "6sy3LkhNFjJWlaeSMNwQ62", title: "Counting Stars – OneRepublic" }, // :contentReference[oaicite:2]{index=2}
-    { id: "1f6O0LJc8URoZCeaN5ZCDU", title: "Good Life – OneRepublic" },
-    { id: "0Af4H1XaQdWK9wO1qYtYUz", title: "Happy – Pharrell Williams" },
+    { id: "0VjIjW4GlUZAMYd2vXMi3b", title: "Blinding Lights – The Weeknd" },
+    { id: "463CkQjx2Zk1yXoBuierM9", title: "Levitating – Dua Lipa" },
+    { id: "6sy3LkhNFjJWlaeSMNwQ62", title: "Counting Stars – OneRepublic" },
+    { id: "6OtCIsQZ64Vs1EbzztvAv4", title: "Good Life – OneRepublic" },
+    { id: "6NPVjNh8Jhru9xOmyQigds", title: "Happy – Pharrell Williams" },
   ],
   Clouds: [
-    { id: "3n3Ppam7vgaVa1iaRUc9Lp", title: "Mr. Brightside – The Killers" },
-    { id: "7LVHVU3tWfcxj5aiPFEW4Q", title: "Fix You – Coldplay" },
-    { id: "5ya2gsaIhTkAuWYEMB0nw5", title: "Demons – Imagine Dragons" },
-    { id: "0nbXyq5TXYPCO7pr3N8S4I", title: "Radioactive – Imagine Dragons" },
-    {
-      id: "6c6T1YQk3LJ3FQx1nFsgbN",
-      title: "Sweater Weather – The Neighbourhood",
-    },
+      { id: "4woTEX1wYOTGDqNXuavlRC", title: "Superman – Eminem ft. Dina Rae" },
+      { id: "7LVHVU3tWfcxj5aiPFEW4Q", title: "Fix You – Coldplay" },
+      { id: "503OTo2dSqe7qk76rgsbep", title: "Still D.R.E. – Dr. Dre ft. Snoop Dogg" },
+      { id: "0nbXyq5TXYPCO7pr3N8S4I", title: "The Box – Roddy Ricch" },
+      { id: "2QjOHCTQ1Jl3zawyYOpxh6", title: "Sweater Weather – The Neighbourhood" },
   ],
+
   Rain: [
-    { id: "1zwMYTA5nlNjZxYrvBB2pV", title: "Someone Like You – Adele" },
-    { id: "0JmiBCpWc1IAc0et7Xm7FL", title: "Let Her Go – Passenger" },
-    { id: "3KkXRkHbMCARz0aVfEt68P", title: "Sunflower – Post Malone" },
-    { id: "1zB4vmk8tFRmM9UULNzbLB", title: "Lovely – Billie Eilish & Khalid" },
-    { id: "0rKtyWc8bvkriBthvHKY8d", title: "All of Me – John Legend" },
-  ],
+  { id: "1zwMYTA5nlNjZxYrvBB2pV", title: "Someone Like You – Adele" },
+  { id: "0JmiBCpWc1IAc0et7Xm7FL", title: "Let Her Go – Passenger" },
+  { id: "3KkXRkHbMCARz0aVfEt68P", title: "Sunflower – Post Malone, Swae Lee" },
+  { id: "1oAwsWBovWRIp7qLMGPIet", title: "Apocalypse – Cigarettes After Sex" },
+  { id: "78GpPHTEz7ZNmtMLQ1wYkK", title: "Sailor Song – Gigi Perez" }
+
+],
+
+
   Drizzle: [
-    { id: "1lkvpmrCaXK8QtliFDcHBO", title: "Bubbly - Colbie Caillat" },
-    { id: "2PpruBYCo4H7WOBJ7Q2EwM", title: "I'm Yours - Jason Mraz" },
-    { id: "4TnjEaWOeW0eKTKIEvJyCa", title: "Banana Pancakes - Jack Johnson" },
-    {
-      id: "5nNmj1cLH3r4aA4XDJ2bgY",
-      title: "Best Part - Daniel Caesar ft. H.E.R.",
-    },
-    {
-      id: "3AJwUDP919kvQ9QcozQPxg",
-      title: "Just The Way You Are - Bruno Mars",
-    },
+    { id: "1lkvpmrCaXK8QtliFDcHBO", title: "Bubbly – Colbie Caillat" },
+    { id: "2PpruBYCo4H7WOBJ7Q2EwM", title: "I'm Yours – Jason Mraz" },
+    { id: "4TnjEaWOeW0eKTKIEvJyCa", title: "Banana Pancakes – Jack Johnson" },
+    { id: "5nNmj1cLH3r4aA4XDJ2bgY", title: "Best Part – Daniel Caesar ft. H.E.R." },
+    { id: "0HEmnAUT8PHznIAAmVXqFJ", title: "Just The Way You Are – Bruno Mars" },
   ],
   Thunderstorm: [
-    { id: "7ouMYWpwJ422jRcDASZB7P", title: "Knights of Cydonia - Muse" },
-    { id: "3YRCqOhFifThpSRFJ1VWFM", title: "Believer - Imagine Dragons" },
-    {
-      id: "2dLLR6qlu5UJ5gk0dKz0h3",
-      title: "Seven Nation Army - The White Stripes",
-    },
-    { id: "3AJwUDP919kvQ9QcozQPxg", title: "Viva La Vida - Coldplay" },
-    {
-      id: "3ZOEytgrvLwQaqXreDs2Jx",
-      title: "Smells Like Teen Spirit - Nirvana",
-    },
+    { id: "7ouMYWpwJ422jRcDASZB7P", title: "Knights of Cydonia – Muse" },
+    { id: "3YRCqOhFifThpSRFJ1VWFM", title: "Believer – Imagine Dragons" },
+    { id: "2dLLR6qlu5UJ5gk0dKz0h3", title: "Seven Nation Army – The White Stripes" },
+    { id: "1mea3bSkSGXuIRvnydlB5b", title: "Viva La Vida – Coldplay" },
+    { id: "5ghIJDpPoe3CfHMGu71E6T", title: "Smells Like Teen Spirit – Nirvana" },
   ],
   Snow: [
-    { id: "6b8Be6ljOzmkOmFslEb23P", title: "Let It Go - Idina Menzel" },
-    {
-      id: "6SlB2yzPnk7r0zY2P2cxEc",
-      title: "Sweater Weather - The Neighbourhood",
-    },
-    { id: "2PpruBYCo4H7WOBJ7Q2EwM", title: "I'm Yours - Jason Mraz" },
-    {
-      id: "6mFkJmJqdDVQ1REhVfGgd1",
-      title: "Snow (Hey Oh) - Red Hot Chili Peppers",
-    },
-    {
-      id: "1VdZ0vKfR5jneCmWIUAMxK",
-      title: "Winter Song - Sara Bareilles & Ingrid Michaelson",
-    },
+    { id: "6b8Be6ljOzmkOmFslEb23P", title: "Let It Go – Idina Menzel" },
+    { id: "2QjOHCTQ1Jl3zawyYOpxh6", title: "Sweater Weather – The Neighbourhood" },
+    { id: "2PpruBYCo4H7WOBJ7Q2EwM", title: "I'm Yours – Jason Mraz" },
+    { id: "6mFkJmJqdDVQ1REhVfGgd1", title: "Snow (Hey Oh) – Red Hot Chili Peppers" },
+    { id: "1VdZ0vKfR5jneCmWIUAMxK", title: "Winter Song – Sara Bareilles & Ingrid Michaelson" },
   ],
   default: [
-    { id: "3n3Ppam7vgaVa1iaRUc9Lp", title: "Mr. Brightside - The Killers" },
-    { id: "7qiZfU4dY1lWllzX7mPBI3", title: "Shape of You - Ed Sheeran" },
-    { id: "2d8JP84HNLKhmd6IYOoupQ", title: "Memories - Maroon 5" },
-    {
-      id: "6QgjcU0zLnzq5OrUoSZ3OK",
-      title: "What Makes You Beautiful - One Direction",
-    },
-    {
-      id: "4cOdK2wGLETKBW3PvgPWqT",
-      title: "Never Gonna Give You Up - Rick Astley",
-    },
+    { id: "3n3Ppam7vgaVa1iaRUc9Lp", title: "Mr. Brightside – The Killers" },
+    { id: "7qiZfU4dY1lWllzX7mPBI3", title: "Shape of You – Ed Sheeran" },
+    { id: "2d8JP84HNLKhmd6IYOoupQ", title: "Memories – Maroon 5" },
+    { id: "6QgjcU0zLnzq5OrUoSZ3OK", title: "What Makes You Beautiful – One Direction" },
+    { id: "4cOdK2wGLETKBW3PvgPWqT", title: "Never Gonna Give You Up – Rick Astley" },
   ],
 };
 
+
 const weatherActivities = {
-  Clear: "☀️ Nikmati hari cerah dengan berjalan-jalan.",
-  Rain: "🌧️ Bawa payung dan kerja dari dalam ruangan.",
-  Clouds: "☁️ Cocok untuk bekerja di coworking space.",
-  Snow: "❄️ WFH dan nikmati secangkir kopi hangat.",
-  Thunderstorm: "⚡ Hindari bepergian, tetap produktif di rumah.",
-  Mist: "🌫️ Waspada kabut, tetap produktif di rumah.",
-  Haze: "🌁 Suasana tenang, cocok untuk kerja ringan.",
-  Fog: "🌁 Kurangi aktivitas luar ruang, jaga fokus.",
-  Drizzle: "🌦️ Hujan ringan cocok untuk tugas-tugas ringan.",
-  Smoke: "🚬 Kurangi aktivitas di luar ruangan.",
-  default: "🌀 Gunakan waktumu dengan bijak hari ini.",
+  Clear: `☀️ Hari ini cerah dan penuh energi — sempatkan jalan kaki 15–30 menit untuk menyerap vitamin D.  
+🎶 Dengarkan lagu energik seperti (Levitating) oleh Dua Lipa agar semangat tetap terjaga.  
+🧴 Gunakan tabir surya dan minum cukup air untuk menjaga kesehatan kulit dan tubuh.`,
+
+  Rain: `🌧️ Hujan turun — suasana sempurna untuk bekerja dari rumah sambil ditemani kopi hangat.  
+🎧 Dengarkan (Someone Like You) oleh Adele untuk suasana hati yang tenang.  
+🧥 Jangan lupa tetap hangat dan perhatikan ventilasi ruangan.`,
+
+  Clouds: `☁️ Langit berawan cocok untuk bekerja di coworking space atau membaca buku favorit.  
+🎵 Iringi harimu dengan (Superman) dari Eminem untuk semangat ekstra.  
+💧 Minum air putih cukup meski cuaca tak terik.`,
+
+  Snow: `❄️ Salju turun dengan tenang — nikmati kehangatan dalam ruangan bersama minuman favorit.  
+🎶 Putar (Let It Go) untuk nuansa magis.  
+🧣 Kenakan pakaian hangat dan jaga kelembapan kulit.`,
+
+  Thunderstorm: `⚡ Cuaca ekstrem — hindari bepergian jika tak mendesak.  
+🎧 Dengarkan (Believer) oleh Imagine Dragons untuk menjaga semangat.  
+🧘 Tetap produktif di rumah dengan rutinitas ringan dan peregangan.`,
+
+  Mist: `🌫️ Kabut menyelimuti pagi ini — batasi aktivitas luar ruangan dan utamakan fokus dalam pekerjaan.  
+🎵 Dengarkan lagu lembut seperti (Best Part) dari Daniel Caesar.  
+☕ Istirahat sejenak dengan teh hangat.`,
+
+  Haze: `🌁 Suasana redup dan berkabut — manfaatkan untuk merenung atau menyusun to-do list.  
+🎶 Lagu seperti (Sweater Weather) cocok untuk menemani.  
+😷 Gunakan masker jika keluar rumah dan jaga kelembapan udara.`,
+
+  Fog: `🌁 Hari berkabut — kurangi kegiatan di luar dan fokuskan diri pada pekerjaan yang membutuhkan konsentrasi.  
+🎵 Dengarkan (Fix You) oleh Coldplay untuk menemani suasana.  
+🕯️ Nyalakan aromaterapi untuk meningkatkan fokus.`,
+
+  Drizzle: `🌦️ Gerimis turun lembut — waktu yang pas untuk menyelesaikan tugas-tugas ringan di rumah.  
+🎧 Putar (Banana Pancakes) oleh Jack Johnson.  
+🧘 Ambil waktu untuk stretching ringan atau membaca santai.`,
+
+  Smoke: `🚬 Udara tercemar — sebaiknya tetap di dalam ruangan.  
+🎶 Dengarkan (Clocks) oleh Coldplay untuk menjaga ritme hari.  
+💨 Gunakan air purifier jika ada, dan hindari aktivitas berat.`,
+
+  default: `🌀 Cuaca tidak menentu — tetap fleksibel dan produktif.  
+🎧 Dengarkan (lagu favoritmu) untuk menjaga suasana hati tetap stabil.  
+💡 Jaga tubuh tetap bugar dengan asupan sehat dan istirahat cukup.`,
 };
+
+
 
 function getWeatherIcon(iconCode) {
   return `https://openweathermap.org/img/wn/${iconCode}@4x.png`;
@@ -276,33 +285,40 @@ function App() {
           <div className="w-full lg:w-1/2 flex flex-col">
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-gray-800 dark:to-gray-900 rounded-2xl shadow-xl p-20 text-gray-800 dark:text-gray-100 h-full">
               <h2 className="text-2xl font-semibold mb-6 text-center text-blue-700 dark:text-blue-300">
-                Saran Aktivitas Profesional
+                Saran Aktivitas
               </h2>
               {weather?.weather?.[0]?.main ? (
-                <div className="flex flex-col items-center space-y-6">
-                  {(() => {
-                    const condition = weather.weather[0].main || "default";
-                    const rawSuggestion =
-                      weatherActivities[condition] || weatherActivities.default;
-                    const emoji = rawSuggestion.charAt(0);
-                    const suggestionText = rawSuggestion.slice(2);
-                    return (
-                      <>
-                        <div className="text-6xl animate-bounce drop-shadow-sm">
-                          {emoji}
-                        </div>
-                        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md px-6 py-4 w-full text-center">
-                          <p className="text-lg leading-relaxed font-medium text-gray-700 dark:text-gray-200">
-                            {suggestionText}
-                          </p>
-                        </div>
-                      </>
-                    );
-                  })()}
-                </div>
-              ) : (
+  <div className="flex flex-col items-center space-y-6 px-4 sm:px-6">
+    {(() => {
+      const condition = weather.weather[0].main || "default";
+      const rawSuggestion =
+        weatherActivities[condition] || weatherActivities.default;
+      const emoji = rawSuggestion.charAt(0);
+      const suggestionText = rawSuggestion.slice(2);
+
+      return (
+        <>
+          <div className="text-6xl animate-bounce drop-shadow-sm">
+            {emoji}
+          </div>
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md px-5 py-5 w-full max-w-lg text-left transition duration-300 ease-in-out">
+  <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2 leading-relaxed">
+    Saran dari aku
+  </h2>
+  <p
+    className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-300 space-y-2 [&_a]:text-blue-600 [&_a:hover]:underline [&_strong]:font-semibold"
+    dangerouslySetInnerHTML={{ __html: suggestionText }}
+  />
+</div>
+
+        </>
+      );
+    })()}
+  </div>
+) : null}
+
+              {(
                 <p className="text-center text-gray-500 dark:text-gray-400 italic">
-                  Saran akan muncul setelah data cuaca tersedia.
                 </p>
               )}
             </div>
@@ -434,7 +450,7 @@ function App() {
         <p className="mt-1">
           Data diambil dari
           <span className="inline-flex items-center gap-1 font-medium text-blue-600 dark:text-blue-400">
-            OpenWeatherMap API
+             OpenWeatherMap API
             <img
               src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/icons/logo_60x60.png"
               alt="OpenWeatherMap"
