@@ -78,48 +78,48 @@ const weatherPlaylists = {
 
 const weatherActivities = {
   Clear: `☀️ Hari ini cerah dan penuh energi sempatkan jalan kaki 15–30 menit untuk menyerap vitamin D.  
-🎶 Dengarkan lagu energik seperti (Levitating) oleh Dua Lipa agar semangat tetap terjaga.  
-🧴 Gunakan Sunscreen dan minum cukup air untuk menjaga kesehatan kulit dan tubuh.`,
+Dengarkan lagu energik seperti (Levitating) oleh Dua Lipa agar semangat tetap terjaga.  
+Gunakan Sunscreen dan minum cukup air untuk menjaga kesehatan kulit dan tubuh.`,
 
   Rain: `🌧️ Hujan turun suasana sempurna untuk bekerja dari rumah sambil ditemani kopi hangat.  
-🎧 Dengarkan (Someone Like You) oleh Adele untuk suasana hati yang tenang.  
-🧥 Jangan lupa tetap hangat dan perhatikan ventilasi ruangan.`,
+Dengarkan (Someone Like You) oleh Adele untuk suasana hati yang tenang.  
+Jangan lupa tetap hangat dan perhatikan ventilasi ruangan.`,
 
   Clouds: `☁️ Langit berawan cocok untuk bekerja di coworking space atau membaca buku favorit.  
-🎵 Iringi harimu dengan (Superman) dari Eminem untuk semangat ekstra.  
-💧 Minum air putih cukup meski cuaca tak terik.`,
+Iringi harimu dengan (Superman) dari Eminem untuk semangat ekstra.  
+Minum air putih cukup meski cuaca tak terik.`,
 
   Snow: `❄️ Salju turun dengan tenang nikmati kehangatan dalam ruangan bersama minuman favorit.  
-🎶 Putar (Let It Go) untuk nuansa magis.  
-🧣 Kenakan pakaian hangat dan jaga kelembapan kulit.`,
+Putar (Let It Go) untuk nuansa magis.  
+Kenakan pakaian hangat dan jaga kelembapan kulit.`,
 
   Thunderstorm: `⚡ Cuaca ekstrem hindari bepergian jika tak mendesak.  
-🎧 Dengarkan (Believer) oleh Imagine Dragons untuk menjaga semangat.  
-🧘 Tetap produktif di rumah dengan rutinitas ringan dan peregangan.`,
+Dengarkan (Believer) oleh Imagine Dragons untuk menjaga semangat.  
+Tetap produktif di rumah dengan rutinitas ringan dan peregangan.`,
 
   Mist: `🌫️ Kabut menyelimuti pagi ini batasi aktivitas luar ruangan dan utamakan fokus dalam pekerjaan.  
-🎵 Dengarkan lagu lembut seperti (Best Part) dari Daniel Caesar.  
-☕ Istirahat sejenak dengan teh hangat.`,
+Dengarkan lagu lembut seperti (Best Part) dari Daniel Caesar.  
+Istirahat sejenak dengan teh hangat.`,
 
   Haze: `🌁 Suasana redup dan berkabut manfaatkan untuk merenung atau menyusun to-do list.  
-🎶 Lagu seperti (Sweater Weather) cocok untuk menemani.  
-😷 Gunakan masker jika keluar rumah dan jaga kelembapan udara.`,
+Lagu seperti (Sweater Weather) cocok untuk menemani.  
+Gunakan masker jika keluar rumah dan jaga kelembapan udara.`,
 
   Fog: `🌁 Hari berkabut kurangi kegiatan di luar dan fokuskan diri pada pekerjaan yang membutuhkan konsentrasi.  
-🎵 Dengarkan (Fix You) oleh Coldplay untuk menemani suasana.  
-🕯️ Nyalakan aromaterapi untuk meningkatkan fokus.`,
+Dengarkan (Fix You) oleh Coldplay untuk menemani suasana.  
+Nyalakan aromaterapi untuk meningkatkan fokus.`,
 
   Drizzle: `🌦️ Gerimis turun lembut waktu yang pas untuk menyelesaikan tugas-tugas ringan di rumah.  
-🎧 Putar (Banana Pancakes) oleh Jack Johnson.  
-🧘 Ambil waktu untuk stretching ringan atau membaca santai.`,
+Putar (Banana Pancakes) oleh Jack Johnson.  
+Ambil waktu untuk stretching ringan atau membaca santai.`,
 
   Smoke: `🚬 Udara tercemar sebaiknya tetap di dalam ruangan.  
-🎶 Dengarkan (Clocks) oleh Coldplay untuk menjaga ritme hari.  
-💨 Gunakan air purifier jika ada, dan hindari aktivitas berat.`,
+Dengarkan (Clocks) oleh Coldplay untuk menjaga ritme hari.  
+Gunakan air purifier jika ada, dan hindari aktivitas berat.`,
 
   default: `🌀 Cuaca tidak menentu tetap fleksibel dan produktif.  
-🎧 Dengarkan (lagu favoritmu) untuk menjaga suasana hati tetap stabil.  
-💡 Jaga tubuh tetap bugar dengan asupan sehat dan istirahat cukup.`,
+Dengarkan (lagu favoritmu) untuk menjaga suasana hati tetap stabil.  
+Jaga tubuh tetap bugar dengan asupan sehat dan istirahat cukup.`,
 };
 
 
